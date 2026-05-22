@@ -6,7 +6,7 @@ Final status: demo-ready
 
 - Public Bonney repo created: `https://github.com/BonneyMantra/ai-matchday-wallet-agent`
 - Browser proof: `outputs/screenshots/github-repo-bonney.png`
-- Local commit: `fc8b430` (`Build matchday wallet agent demo`).
+- Local branch contains the product build commit plus a blocker-reporting commit.
 - Push status: blocked. `git push -u origin main` returned HTTP 403 because permission to `BonneyMantra/ai-matchday-wallet-agent.git` was denied to `gabrielantonyxaviour`.
 
 ## Submission Portal Status
