@@ -12,7 +12,8 @@
 - Bonney GitHub preflight: done on 2026-05-22 with session `xcup-bonney-github-preflight`.
 - Repo creation: done through `agent-browser` session `create-bonney-xcup-repo-2`.
 - Public repo URL: `https://github.com/BonneyMantra/ai-matchday-wallet-agent`.
-- Push: pending; local commit/push attempt must verify credentials because local `gh` is not Bonney.
+- Local commit: `fc8b430` (`Build matchday wallet agent demo`).
+- Push: blocked. `git push -u origin main` returned HTTP 403 because permission to `BonneyMantra/ai-matchday-wallet-agent.git` was denied to `gabrielantonyxaviour`.
 
 ## Steps
 
@@ -23,4 +24,5 @@
 
 ## Blockers
 
+- Pushing code requires Bonney Git credentials/token, adding the current CLI account as a collaborator, or an approved browser upload path.
 - If GitHub asks for password, passkey, CAPTCHA, or email security confirmation, stop and record the blocker.

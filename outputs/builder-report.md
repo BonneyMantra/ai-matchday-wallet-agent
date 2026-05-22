@@ -6,7 +6,8 @@ Final status: demo-ready
 
 - Public Bonney repo created: `https://github.com/BonneyMantra/ai-matchday-wallet-agent`
 - Browser proof: `outputs/screenshots/github-repo-bonney.png`
-- Push status: pending credential verification. Local `gh` is not authenticated as Bonney, so a push failure must be treated as a credential blocker, not a completed repo upload.
+- Local commit: `fc8b430` (`Build matchday wallet agent demo`).
+- Push status: blocked. `git push -u origin main` returned HTTP 403 because permission to `BonneyMantra/ai-matchday-wallet-agent.git` was denied to `gabrielantonyxaviour`.
 
 ## Submission Portal Status
 
@@ -71,6 +72,7 @@ Final status: demo-ready
 
 ## Blockers
 
+- Public repo push blocked: Gabriel must provide Bonney Git credentials/token, add the current CLI account as a collaborator, or approve a browser upload path.
 - Live X Layer deployment/write blocked: Gabriel must provide a funded X Layer deployer/private key or approved wallet path.
 - Final submission blocked: needs pushed repo URL, project X handle, X post link, Telegram contacts, and approval for final submit.
 - Autonomous X posting blocked: no exact approved post content or final click authorization.
@@ -80,6 +82,6 @@ Final status: demo-ready
 
 1. Provide funded X Layer testnet signer through an approved secure path.
 2. Run `npm run deploy:xlayer` and `npm run agent:submit:xlayer`.
-3. Push to Bonney repo once Git credentials for `BonneyMantra` are available.
+3. Push to Bonney repo once Git credentials for `BonneyMantra` are available or the current CLI account is added as collaborator.
 4. Create/confirm project X handle and approve exact post copy.
 5. Prefill Google Form draft; stop before final submit until explicitly approved.

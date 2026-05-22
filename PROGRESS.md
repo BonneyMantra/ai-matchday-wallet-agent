@@ -22,3 +22,9 @@
 - Formal M2 polish blocked: `playwright-cli-sessions browser start` failed with SSH timeout to `m2worker` at `100.115.214.82:22`; report saved under `.playwright-sessions`.
 - Local visual QA passed at 375, 768, and 1440 px after fixing CSS import order; screenshot paths are under `outputs/screenshots/`.
 - Public Bonney repo created: `https://github.com/BonneyMantra/ai-matchday-wallet-agent`.
+
+## 2026-05-22T01:56:00Z
+
+- Local git commit created: `fc8b430` (`Build matchday wallet agent demo`).
+- Push to `https://github.com/BonneyMantra/ai-matchday-wallet-agent.git` failed with HTTP 403 because local credentials are `gabrielantonyxaviour`, not Bonney.
+- Push blocker recorded in `REPO_PLAN.md`, `QUALITY_GATE.md`, and `outputs/builder-report.md`.
