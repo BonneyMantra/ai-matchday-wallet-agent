@@ -1,0 +1,15 @@
+[
+  {
+    "matchIdLabel": "ARG-FRA-2026-GROUP-A",
+    "home": "Argentina",
+    "away": "France",
+    "kickoffUtc": "2026-06-14T20:00:00Z",
+    "sourceLabel": "fixture-demo",
+    "features": {
+      "homeMomentum": 82,
+      "awayMomentum": 79,
+      "drawPressure": 18
+    },
+    "demoResult": "home"
+  }
+]

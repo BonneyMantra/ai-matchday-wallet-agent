@@ -1,0 +1,13 @@
+node_modules/
+dist/
+out/
+cache/
+broadcast/
+.env
+.env.*
+!.env.example
+*.log
+proofs/xlayer-deployment.json
+proofs/xlayer-agent-submit.json
+public/proofs/xlayer-deployment.json
+public/proofs/xlayer-agent-submit.json

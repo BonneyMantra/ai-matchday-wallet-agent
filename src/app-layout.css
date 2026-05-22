@@ -1,0 +1,148 @@
+.proofBand,
+.contractBand,
+.submitBand {
+  padding: 72px max(24px, 6vw);
+}
+
+.sectionHeader {
+  max-width: 850px;
+}
+
+.timeline,
+.proofGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 30px;
+}
+
+.timelineItem,
+.proofCard {
+  min-height: 164px;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.timelineItem strong,
+.proofCard strong {
+  display: block;
+  margin-top: 16px;
+  font-size: 1.05rem;
+  line-height: 1.35;
+}
+
+.timelineItem small {
+  display: block;
+  margin-top: 20px;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.contractBand {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(24px, 5vw, 68px);
+  background: #0b0d0a;
+}
+
+.contractCopy p {
+  margin-top: 18px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.proofGrid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 0;
+}
+
+.proofIcon {
+  display: grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border-radius: 7px;
+  color: #061006;
+  background: var(--green);
+}
+
+.submitBand {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  margin: 42px max(24px, 6vw) 56px;
+  border-radius: 8px;
+}
+
+.submitBand p {
+  max-width: 820px;
+  margin-top: 16px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.submissionList {
+  display: grid;
+  min-width: 280px;
+  gap: 10px;
+  align-content: center;
+}
+
+@media (max-width: 940px) {
+  .navlinks {
+    display: none;
+  }
+
+  .hero,
+  .contractBand,
+  .submitBand {
+    grid-template-columns: 1fr;
+  }
+
+  .scorebug {
+    right: 24px;
+  }
+
+  .timeline,
+  .proofGrid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .hero {
+    padding: 112px 18px 34px;
+  }
+
+  .topbar {
+    top: 10px;
+    width: calc(100% - 20px);
+  }
+
+  .brand {
+    font-size: 0.68rem;
+  }
+
+  .scorebug {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: fit-content;
+    margin-bottom: 18px;
+  }
+
+  .timeline,
+  .proofGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .proofBand,
+  .contractBand,
+  .submitBand {
+    padding: 48px 18px;
+  }
+
+  .submitBand {
+    margin: 28px 18px 40px;
+  }
+}

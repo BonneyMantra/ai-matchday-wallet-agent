@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-05-22T01:48:49.200Z",
+  "decisionMode": "fixture-heuristic",
+  "fixturePolicy": "Seeded demo fixture; not live sports data.",
+  "matchIdLabel": "ARG-FRA-2026-GROUP-A",
+  "fixture": {
+    "matchIdLabel": "ARG-FRA-2026-GROUP-A",
+    "home": "Argentina",
+    "away": "France",
+    "kickoffUtc": "2026-06-14T20:00:00Z",
+    "sourceLabel": "fixture-demo",
+    "features": {
+      "homeMomentum": 82,
+      "awayMomentum": 79,
+      "drawPressure": 18
+    },
+    "demoResult": "home"
+  },
+  "pick": "home",
+  "rationale": "Argentina has the stronger demo momentum score in the labeled fixture."
+}

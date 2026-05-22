@@ -1,0 +1,31 @@
+{
+  "name": "ai-matchday-wallet-agent",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:contracts": "forge test -vvv",
+    "rpc:smoke": "node scripts/xlayer-rpc-smoke.mjs",
+    "agent:pick": "node scripts/agent-pick.mjs",
+    "anvil:proof": "node scripts/local-anvil-proof.mjs",
+    "deploy:xlayer": "node scripts/deploy-xlayer.mjs",
+    "agent:submit:xlayer": "node scripts/agent-submit-xlayer.mjs",
+    "check": "npm run test:contracts && npm run rpc:smoke && npm run agent:pick && npm run anvil:proof && npm run build"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "lucide-react": "^0.556.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "viem": "^2.39.3"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.2.4"
+  }
+}

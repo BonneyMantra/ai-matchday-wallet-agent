@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-05-22T01:48:48.906Z",
+  "network": "X Layer Testnet",
+  "rpcUrl": "https://testrpc.xlayer.tech/terigon",
+  "expectedChainId": 1952,
+  "observedChainId": 1952,
+  "observedChainIdHex": "0x7a0",
+  "blockNumber": "30955691",
+  "status": "passed"
+}
